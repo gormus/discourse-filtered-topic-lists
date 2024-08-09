@@ -1,0 +1,52 @@
+presets:
+  type: objects
+  default: []
+  schema:
+    name: "Filtered list preset"
+    properties:
+      title:
+        type: string
+        required: false
+      length:
+        type: integer
+        min: 1
+        max: 20
+        required: true
+      query:
+        type: string
+        required: true
+      plugin_outlet:
+        type: enum
+        required: true
+        choices:
+          - "below-site-header"
+          - "above-main-container"
+          - "before-topic-list"
+          - "after-topic-list"
+          - "topic-list-bottom"
+          - "main-outlet-bottom"
+          - "before-main-outlet"
+      show_on:
+        type: enum
+        required: true
+        choices:
+          - "everywhere"
+          - "homepage"
+          - "top_menu"
+          - "categories"
+          - "latest"
+          - "top"
+          - "new"
+          - "unread"
+          - "read"
+          - "posted"
+          - "bookmarks"
+          - "hot"
+          - "selected_categories"
+          - "selected_tags"
+      selected_categories:
+        type: "categories"
+        min: 0
+      selected_tags:
+        type: "tags"
+        min: 0

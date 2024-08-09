@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "author": "Osman Gormus <osman@gorm.us>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gormus/discourse-filtered-topic-lists.git"
+  },
+  "scripts": {
+    "prettier:check": "prettier --list-different \"{common,javascripts,desktop,mobile,test,scss}/**/*.{js,gjs,es6,scss}\"",
+    "prettier:fix": "prettier --check --write \"{common,javascripts,desktop,mobile,test,scss}/**/*.{js,gjs,es6,scss}\""
+  },
+  "devDependencies": {
+    "eslint-config-discourse": "latest"
+  }
+}

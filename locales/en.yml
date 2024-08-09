@@ -1,0 +1,28 @@
+en:
+  theme_metadata:
+    settings:
+      presets:
+        description: "Display custom filtered topics lists in selected plugin outlets."
+        schema:
+          properties:
+            title:
+              label: Title
+              description: "The heading of the list"
+            length:
+              label: Length
+              description: "The number of topics to display"
+            query:
+              label: Query
+              description: "The query to filter the list"
+            plugin_outlet:
+              label: Plugin Outlet
+              description: "The plugin outlet to display the list in"
+            show_on:
+              label: Show On
+              description: "The page to display the list on"
+            selected_categories:
+              label: Selected Categories
+              description: "The categories to filter the list by"
+            selected_tags:
+              label: Selected Tags
+              description: "The tags to filter the list by"
