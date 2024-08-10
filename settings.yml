@@ -9,9 +9,10 @@ presets:
         required: false
       length:
         type: integer
-        min: 1
-        max: 20
         required: true
+        validations:
+          min: 1
+          max: 20
       query:
         type: string
         required: true
@@ -46,7 +47,9 @@ presets:
           - "selected_tags"
       selected_categories:
         type: "categories"
-        min: 0
+        validations:
+          min: 0
       selected_tags:
         type: "tags"
-        min: 0
+        validations:
+          min: 0
