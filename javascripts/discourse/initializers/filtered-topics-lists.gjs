@@ -46,7 +46,7 @@ export default apiInitializer("1.14.0", (api) => {
           if (topicList.topics) {
             return (this.filteredTopics = topicList.topics.slice(
               0,
-              list_length,
+              list_length
             ));
           }
         }
@@ -63,7 +63,9 @@ export default apiInitializer("1.14.0", (api) => {
 
             case "top_menu":
               const topMenu = this.siteSettings.top_menu;
-              const targets = topMenu.split("|").map((opt) => `discovery.${opt}`);
+              const targets = topMenu
+                .split("|")
+                .map((opt) => `discovery.${opt}`);
               return targets.includes(currentRoute.name);
 
             case "categories":
@@ -95,11 +97,17 @@ export default apiInitializer("1.14.0", (api) => {
 
             case "selected_categories":
               const category_id = currentRoute.attributes?.category?.id;
-              return (currentRoute.name === "discovery.category") && list_selected_categories.includes(category_id);
+              return (
+                currentRoute.name === "discovery.category" &&
+                list_selected_categories.includes(category_id)
+              );
 
             case "selected_tags":
               const tag_id = currentRoute.attributes?.tag?.id;
-              return (currentRoute.name === "tag.show") && list_selected_tags.includes(tag_id);
+              return (
+                currentRoute.name === "tag.show" &&
+                list_selected_tags.includes(tag_id)
+              );
 
             default:
               return false;
