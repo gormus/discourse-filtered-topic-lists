@@ -1,9 +1,9 @@
 {
   "name": "Discourse Filtered Topics Lists",
-  "theme_version": "1.0.1",
+  "theme_version": "1.0.2",
   "authors": "Osman Gormus <osman@gorm.us>",
   "component": true,
-  "about_url": "https://github.com/gormus/discourse-filtered-topic-lists/blob/main/README.md",
+  "about_url": "https://github.com/gormus/discourse-filtered-topic-lists",
   "license_url": "https://github.com/gormus/discourse-filtered-topic-lists/blob/main/LICENSE",
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
