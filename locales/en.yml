@@ -2,7 +2,7 @@ en:
   theme_metadata:
     settings:
       presets:
-        description: "Display custom filtered topics lists in selected plugin outlets."
+        description: "Display custom filtered topic lists in selected plugin outlets."
         schema:
           properties:
             title:

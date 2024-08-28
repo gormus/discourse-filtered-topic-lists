@@ -1,4 +1,4 @@
-# Discourse Filtered Topics Lists
+# Discourse Filtered Topic Lists
 
 Allows creating custom topic list using filters. The lists then can be displayed in selected plugin outlet for selected pages.
 
