@@ -1,6 +1,6 @@
 {
   "name": "Discourse Filtered Topic Lists",
-  "theme_version": "1.0.2",
+  "theme_version": "1.0.3",
   "authors": "Osman Gormus <osman@gorm.us>",
   "component": true,
   "about_url": "https://github.com/gormus/discourse-filtered-topic-lists",
