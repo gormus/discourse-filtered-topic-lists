@@ -1,8 +1,10 @@
 presets:
+  refresh: true
   type: objects
   default: []
   schema:
     name: "Filtered list preset"
+    identifier: title
     properties:
       title:
         type: string
